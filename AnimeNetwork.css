@@ -30,21 +30,64 @@ h1{
     text-align:center
 }
 .div2{
+    
+    
     margin: 10px;
+    width: 850px;
     background-color: darkgreen;
-    display:inline-block;
-    width: 890px;
-    height: 500px;
-    background:linear-gradient()
+   
+    display:inline-flex;
+    height: 1000px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
    
 }
 
+.column {
+    
+    width: 150px;
+    height: 300px;
+    background-color: beige;
+    overflow: hidden;
+    object-fit: contain;
+    object-fit: scale-down;
+    
+    
+    
+    
+    
+}
+
+
+
 .div3{
-    background-color: tomato;
- float: right;
- height: 500px;
+    
+background-color: tomato;
+display: inline-block;
+float: right;
+ height: 850px;
  width: 300px;
  margin: 10px;
 
 
 }
+.div4{
+    
+    background-color:aquamarine;
+    display: inline-block;
+    float: right;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    
+    
+    }
+#de{
+
+    
+    background-color:teal
+}
+
+
