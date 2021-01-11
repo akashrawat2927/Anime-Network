@@ -1,5 +1,10 @@
 h1{
+    height: 100px;
     
+    font-family: 'Potta One', cursive;
+    font-family: 'Potta One', cursive;
+    border-radius: 20px;
+    background: linear-gradient(to right, #000428, #004e92);
 }
 .div1{
 
@@ -19,7 +24,7 @@ h1{
 float:centre;
 height:30px;
 width: 80px;
-
+border-radius: 5px;
 
 }
 .B1:hover{
@@ -28,6 +33,7 @@ background-color: chartreuse;
 }
 h1{
     text-align:center
+    
 }
 .div2{
     
@@ -39,7 +45,11 @@ h1{
     height: 1000px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    overflow: hidden;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-size: contain;
+    
+    
     
    
 }
@@ -48,9 +58,11 @@ h1{
     
     width: 150px;
     height: 300px;
-    overflow: hidden;
     background-size: contain;
+    object-fit: contain;
+    
     background-repeat: no-repeat;
+  
     
     
     
@@ -64,6 +76,7 @@ h1{
 .div3{
     
 background-color: tomato;
+background: linear-gradient(to right, #134e5e, #71b280);
 display: inline-block;
 float: right;
  height: 850px;
@@ -90,3 +103,8 @@ float: right;
 }
 
 
+body{
+
+    
+    background: linear-gradient(to right, #000000, #434343);
+}
